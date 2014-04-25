@@ -4,6 +4,7 @@ Overall document style
 */
 html {
 	background: #526ca8;
+	height: 100%;
 }
 
 body {
@@ -12,6 +13,16 @@ body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size:14px;
     margin:0;
+	height: 100%;
+}
+
+.contentContainer{
+	height: 100%;
+}
+
+.legalCopy{
+	position: fixed;
+    width: 100%;
 }
 
 .topNav, .subNav, .header, .contentContainer, .bottomNav, .subNav, .legalCopy{
@@ -218,9 +229,8 @@ Page header and footer styles
 Heading styles
 */
 div.details ul.blockList ul.blockList ul.blockList li.blockList h4, div.details ul.blockList ul.blockList ul.blockListLast li.blockList h4 {
-    background-color:#dee3e9;
-    border-top:1px solid #9eadc0;
-    border-bottom:1px solid #9eadc0;
+    background-color:#7E7E7E;
+	color: white;
     margin:0 0 6px -8px;
     padding:2px 5px;
 }
